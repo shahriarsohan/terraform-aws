@@ -2,6 +2,10 @@ variable "aws" {
   default = "us-east-2"
 }
 
+variable "region" {
+  default = "us-east-2"
+}
+
 
 variable "AMIS" {
   type = map(any)
